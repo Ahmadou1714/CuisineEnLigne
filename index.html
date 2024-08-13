@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CuisineEnLigne</title>
+  <meta name="description"
+    content="Découvrez des milliers de recettes et apprenez à cuisiner des plats délicieux avec nos recettes détaillées.">
+  <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+  <link rel="preload" href="images/fond5.webp" as="image">
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+HU&display=swap"
+    rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+HU&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/general.css">
+  <link rel="stylesheet" href="css/styles.css" media="all">
+  <link rel="stylesheet" href="css/queries.css">
+
+</head>
+
+<body>
+  <div class="container-principal">
+    <header>
+      <div class="logo">
+        <a href="#"><img src="icons/logo.avif" alt="Logo">CuisineEnLigne</a>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#">Accueil</a></li>
+          <li><a href="#">Recettes</a></li>
+          <li><a href="#">Catégories</a></li>
+          <li><a href="#">Profil</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="bouttons-authentification">
+        <button>Inscription</button>
+        <button>Connexion</button>
+      </div>
+    </header>
+
+    <main>
+
+      <!-- SECTION BANNIERE -->
+
+      <section class="banniere">
+        <div class="banniere-content">
+          <h1>Découvrez des milliers de recettes</h1>
+          <p>Apprenez à cuisiner des plats délicieux avec nos recettes détaillées.</p>
+          <button>S'inscrire maintenant</button>
+        </div>
+      </section>
+
+      <!-- SECTION RECETTE -->
+
+      <section class="recette">
+        <h2>Recettes</h2>
+        <div class="search-recette">
+          <label>
+            <input type="text" class="search-input" placeholder="Rechercher une recette">
+          </label>
+          <i class="fas fa-search search-icon"></i>
+        </div>
+
+        <div class="recette-cards">
+          <div class="recette-card">
+            <img src="images/plat1.webp" alt="Recette 1">
+            <h3>Légumes au four à l'italienne</h3>
+            <p class="recette-note"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></p>
+            <p class="recette-rating"><span>Note: 4.5</span>/5</p>
+            <p class="recette-auteur">Saikou Ahmed Tidiane</p>
+          </div>
+          <div class="recette-card">
+            <img src="images/plat2.webp" alt="Recette 2">
+            <h3>Pommes de terre sautées aux légumes</h3>
+            <p class="recette-note"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></p>
+            <p class="recette-rating"><span>Note: 4.5</span>/5</p>
+            <p class="recette-auteur">Ibrahim Camara</p>
+          </div>
+          <div class="recette-card">
+            <img src="images/plat3.webp" alt="Recette 3">
+            <h3>Crevettes grillées au citron, persil et ail</h3>
+            <p class="recette-note"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></p>
+            <p class="recette-rating"><span>Note: 4.5</span>/5</p>
+            <p class="recette-auteur">Mouctar Diallo</p>
+          </div>
+          <div class="recette-card">
+            <img src="images/plat4.webp" alt="Recette 4">
+            <h3>Pommes de terre au four avec boulettes de viande et légumes</h3>
+            <p class="recette-note"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></p>
+            <p class="recette-rating"><span>Note: 4.5</span>/5</p>
+            <p class="recette-auteur">Amadou Camara</p>
+          </div>
+          <div class="recette-card">
+            <img src="images/plat5.webp" alt="Recette 5">
+            <h3>Rouleau de sushi servi sur un plateau</h3>
+            <p class="recette-note"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></p>
+            <p class="recette-rating"><span>Note: 5</span>/5</p>
+            <p class="recette-auteur">Ismael Diané</p>
+          </div>
+          <div class="recette-card">
+            <img src="images/plat6.webp" alt="Recette 6">
+            <h3>Salade de riz à l'avocat</h3>
+            <p class="recette-note"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></p>
+            <p class="recette-rating"><span>Note: 5</span>/5</p>
+            <p class="recette-auteur">Martine</p>
+          </div>
+          <div class="recette-card">
+            <img src="images/plat7.webp" alt="Recette 7">
+            <h3>Salade de couscous</h3>
+            <p class="recette-note"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></p>
+            <p class="recette-rating"><span>Note: 4</span>/5</p>
+            <p class="recette-auteur">Aminata Condé</p>
+          </div>
+          <div class="recette-card">
+            <img src="images/plat8.webp" alt="Recette 8">
+            <h3>Thieboudienne</h3>
+            <p class="recette-note"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></p>
+            <p class="recette-rating"><span>Note: 5</span>/5</p>
+            <p class="recette-auteur">Fatoumata Diarra</p>
+          </div>
+          <div class="recette-card">
+            <img src="images/plat9.webp" alt="Recette 9">
+            <h3>Poulet Yassa</h3>
+            <p class="recette-note"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></p>
+            <p class="recette-rating"><span>Note: 4.5</span>/5</p>
+            <p class="recette-auteur">Oumou Diop</p>
+          </div>
+          <div class="recette-card">
+            <img src="images/plat10.webp" alt="Recette 10">
+            <h3>Soupou tehou</h3>
+            <p class="recette-note"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></p>
+            <p class="recette-rating"><span>Note: 4.5</span>/5</p>
+            <p class="recette-auteur">Sofia</p>
+          </div>
+        </div>
+        <div class="navigation">
+          <button>1</button>
+          <button>2</button>
+          <button>3</button>
+          <button>4</button>
+        </div>
+      </section>
+
+      <!-- SECTION VIDEOS -->
+
+      <section class="videos">
+        <h2>Vidéos</h2>
+        <div class="container video-cards">
+          <div class="video-card">
+            <video src="videos/video1.mp4" controls></video>
+            <h3>Légumes au four à l'italienne</h3>
+          </div>
+          <div class="video-card">
+            <video src="videos/video2.mp4" controls></video>
+            <h3>Pommes de terre sautées aux légumes</h3>
+          </div>
+          <div class="video-card">
+            <video src="videos/video3.mp4" controls></video>
+            <h3>Crevettes grillées au citron, persil et ail</h3>
+          </div>
+          <div class="video-card">
+            <video src="videos/video4.mp4" controls poster="posters/image3.png"></video>
+            <h3>Poulet Yassa</h3>
+          </div>
+          <div class="video-card">
+            <video src="videos/video5.mp4" controls poster="posters/image4.png"></video>
+            <h3>Thieboudienne</h3>
+          </div>
+          <div class="video-card">
+            <video src="videos/video6.mp4" controls></video>
+            <h3>Rouleau de sushi</h3>
+          </div>
+        </div>
+        <div class="video-navigation">
+          <button class="nav-video">Retour</button>
+          <button class="nav-video">Suivant</button>
+        </div>
+      </section>
+
+      <!-- SECTION TEMOIGNAGES -->
+
+      <section class="temoignages">
+        <h2>Témoignages</h2>
+        <div class="container temoignages-container">
+          <div class="temoignage">
+            <img src="images/customers/temoignage1.webp" alt="Témoignage 1" class="temoignage1 temoignage-img">
+            <p class="temoignage-text">"CuisineEnLigne a métamorphosé ma cuisine ! Incontournable pour tous."</p>
+            <p class="recette-note"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></p>
+            <p class="temoignage-auteur">Aliou Conté</p>
+          </div>
+          <div class="temoignage">
+            <img src="images/customers/temoignage2.webp" alt="Témoignage 2" class="temoignage2 temoignage-img">
+            <p class="temoignage-text">"Maîtrisez des plats complexes avec CuisineEnLigne. Recommandé !"</p>
+            <p class="recette-note"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></p>
+            <p class="temoignage-auteur">Aissata Sow</p>
+          </div>
+          <div class="temoignage">
+            <img src="images/customers/temoignage3.webp" alt="Témoignage 3" class="temoignage3 temoignage-img">
+            <p class="temoignage-text">"CuisineEnLigne est essentiel ! Innover en cuisine, c'est possible !"</p>
+            <p class="recette-note"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></p>
+            <p class="temoignage-auteur">Ibrahim Koné</p>
+          </div>
+          <div class="temoignage">
+            <img src="images/customers/temoignage4.webp" alt="Témoignage 4" class="temoignage4 temoignage-img">
+            <p class="temoignage-text">"CuisineEnLigne, la clé pour évoluer en cuisine. À essayer absolument !"</p>
+            <p class="recette-note"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></p>
+            <p class="temoignage-auteur">Mariame Bangoura</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION COMMENT CA MARCHE -->
+
+      <section class="comment-ça-marche">
+        <h2>Comment ça marche</h2>
+        <div class="contenu">
+
+          <div class="description gauche">
+            <div class="detail">
+              <i class="fas fa-carrot"></i>
+              <p>Ingrédients frais et de saison pour des plats délicieux et sains.</p>
+            </div>
+            <div class="detail">
+              <i class="fas fa-utensils"></i>
+              <p>Instructions simples à suivre, parfaites pour tous les niveaux.</p>
+            </div>
+            <div class="detail">
+              <i class="fas fa-clock"></i>
+              <p>Des recettes rapides à préparer pour les journées chargées.</p>
+            </div>
+          </div>
+
+          <div class="image-principale">
+            <img src="images/gallery/galerie19.avif" alt="Image de la recette">
+          </div>
+
+          <div class="description droite">
+            <div class="detail">
+              <i class="fas fa-book"></i>
+              <p>Des conseils et astuces de chefs professionnels pour améliorer vos compétences.</p>
+            </div>
+            <div class="detail">
+              <i class="fas fa-heart"></i>
+              <p>Des recettes adaptées à toute la famille, y compris les enfants.</p>
+            </div>
+            <div class="detail">
+              <i class="fas fa-seedling"></i>
+              <p>Recettes végétariennes et sans gluten disponibles.</p>
+            </div>
+          </div>
+        </div>
+        <button class="bouton-eyes">Voir les recettes<i class="fas fa-eye"></i> </button>
+      </section>
+
+      <!-- SECTION GALERIE -->
+
+      <section class="galerie">
+        <h2>Galerie de Recettes</h2>
+        <div class="galerie-content">
+          <div class="container galerie-container">
+            <div class="image-wrapper">
+              <img src="images/gallery/gallery-1.webp" alt="Photo 1">
+              <div class="image-overlay">
+                <p class="image-text">EN SAVOIR PLUS</p>
+              </div>
+            </div>
+            <div class="image-wrapper">
+              <img src="images/gallery/gallery-2.webp" alt="Photo 2">
+              <div class="image-overlay">
+                <p class="image-text">EN SAVOIR PLUS</p>
+              </div>
+            </div>
+            <div class="image-wrapper">
+              <img src="images/gallery/gallery-3.webp" alt="Photo 3">
+              <div class="image-overlay">
+                <p class="image-text">EN SAVOIR PLUS</p>
+              </div>
+            </div>
+            <div class="image-wrapper">
+              <img src="images/gallery/gallery-4.webp" alt="Photo 4">
+              <div class="image-overlay">
+                <p class="image-text">EN SAVOIR PLUS</p>
+              </div>
+            </div>
+            <div class="image-wrapper">
+              <img src="images/gallery/gallery-5.webp" alt="Photo 5">
+              <div class="image-overlay">
+                <p class="image-text">EN SAVOIR PLUS</p>
+              </div>
+            </div>
+            <div class="image-wrapper">
+              <img src="images/gallery/gallery-6.webp" alt="Photo 6">
+              <div class="image-overlay">
+                <p class="image-text">EN SAVOIR PLUS</p>
+              </div>
+            </div>
+            <div class="image-wrapper">
+              <img src="images/gallery/gallery-7.webp" alt="Photo 7">
+              <div class="image-overlay">
+                <p class="image-text">EN SAVOIR PLUS</p>
+              </div>
+            </div>
+            <div class="image-wrapper">
+              <img src="images/gallery/gallery-8.webp" alt="Photo 8">
+              <div class="image-overlay">
+                <p class="image-text">EN SAVOIR PLUS</p>
+              </div>
+            </div>
+            <div class="image-wrapper">
+              <img src="images/gallery/gallery-9.webp" alt="Photo 9">
+              <div class="image-overlay">
+                <p class="image-text">EN SAVOIR PLUS</p>
+              </div>
+            </div>
+            <div class="image-wrapper">
+              <img src="images/gallery/gallery-10.webp" alt="Photo 10">
+              <div class="image-overlay">
+                <p class="image-text">EN SAVOIR PLUS</p>
+              </div>
+            </div>
+            <div class="image-wrapper">
+              <img src="images/gallery/gallery-11.webp" alt="Photo 11">
+              <div class="image-overlay">
+                <p class="image-text">EN SAVOIR PLUS</p>
+              </div>
+            </div>
+            <div class="image-wrapper">
+              <img src="images/gallery/gallery-12.webp" alt="Photo 12">
+              <div class="image-overlay">
+                <p class="image-text">EN SAVOIR PLUS</p>
+              </div>
+            </div>
+            <div class="image-wrapper">
+              <img src="images/gallery/galerie-14.webp" alt="Photo 12">
+              <div class="image-overlay">
+                <p class="image-text">EN SAVOIR PLUS</p>
+              </div>
+            </div>
+            <div class="image-wrapper">
+              <img src="images/gallery/gallery-15.webp" alt="Photo 12">
+              <div class="image-overlay">
+                <p class="image-text">EN SAVOIR PLUS</p>
+              </div>
+            </div>
+            <div class="image-wrapper">
+              <img src="images/gallery/galerie-16.webp" alt="Photo 12">
+              <div class="image-overlay">
+                <p class="image-text">EN SAVOIR PLUS</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION INGREDIENTS -->
+      <section class="ingredients">
+        <h2>Découvrez nos ingrédients de saison </h2>
+        <div class="ingredients-container">
+          <div class="ingredient">
+            <img src="images/ingredients/ingredient1.webp" alt="Ingrédient 1">
+            <h3>Tomates</h3>
+          </div>
+          <div class="ingredient">
+            <img src="images/ingredients/ingredient2.webp" alt="Ingrédient 2">
+            <h3>Carottes</h3>
+          </div>
+          <div class="ingredient">
+            <img src="images/ingredients/ingredient3.webp" alt="Ingrédient 3">
+            <h3>Concombres</h3>
+          </div>
+          <div class="ingredient">
+            <img src="images/ingredients/ingredient4.webp" alt="Ingrédient 4">
+            <h3>Choux</h3>
+          </div>
+          <div class="ingredient">
+            <img src="images/ingredients/ingredient5.webp" alt="Ingrédient 5">
+            <h3>Brocolis</h3>
+          </div>
+          <div class="ingredient">
+            <img src="images/ingredients/ingredient6.webp" alt="Ingrédient 6">
+            <h3>Haricots verts</h3>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION NEWSLETTER -->
+
+      <section class="newsletter">
+        <h2>Abonnez-vous à notre Newsletter</h2>
+        <div class="newsletter-container">
+          <label>
+            <input type="email" placeholder="Votre adresse e-mail">
+          </label>
+          <button>S'abonner</button>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+
+    <footer>
+      <div class="footer-content">
+        <div class="footer-column">
+          <h3>À propos de nous</h3>
+          <p>Découvrez des recettes délicieuses, des conseils de cuisine et plus encore sur CuisineEnLigne. Rejoignez
+            notre communauté et partagez vos propres créations culinaires !</p>
+        </div>
+        <div class="footer-column">
+          <h3>Contactez-nous</h3>
+          <ul>
+            <li>Email : cuisineenligne@gmail.com</li>
+            <li>Téléphone : +224 621 11 51 96</li>
+            <li>Adresse : Boussoura</li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h3>Suivez-nous</h3>
+          <div class="social-icons">
+            <a href="#" title="Facebook"><i class="fab fa-facebook"></i></a>
+            <a href="#" title="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" title="YouTube"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2024 CuisineEnLigne. Tous droits réservés.</p>
+        <a href="#">Mentions légales</a>
+      </div>
+    </footer>
+  </div>
+</body>
+
+</html>
