@@ -1,0 +1,53 @@
+/* STYLE GLOBAL */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Montserrat, Lato, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.container-principal {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  color: #fff;
+  border: none;
+  border-radius: 25px;
+  font-size: 16px;
+  transition: background-color 0.3s;
+  padding: 10px 20px;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #e5533b;
+  transform: scale(1.1);
+}
+
+h2 {
+  margin-bottom: 80px;
+  text-align: center;
+  font-size: 30px;
+}
+h4 {
+  margin-top: 2rem;
+}
