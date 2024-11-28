@@ -5,7 +5,7 @@
 **Nom du projet :** Site de partage de recettes (CuisineEnLigne.com)  
 **Date :** 15/07/2024  
 **Nom et coordonnées du porteur du projet :**  
-**Nom :** Diarra Amadou  
+**Nom :** Amadou Diarra  
 **Email :** amadoudiarra603@gmail.com  
 **Tel :** +224621115196  
 **Adresse :** Boussoura  
