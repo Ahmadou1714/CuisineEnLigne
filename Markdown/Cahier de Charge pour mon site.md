@@ -37,7 +37,6 @@ Permettre aux utilisateurs de partager et découvrir des recettes facilement.
 - Accueil
 - Recettes
 - Catégories (ex: Entrées, Plats principaux, Desserts, avec des sous-catégories)
-- Profil utilisateur
 - Contact
 
 #### 6. Design et Ergonomie:
